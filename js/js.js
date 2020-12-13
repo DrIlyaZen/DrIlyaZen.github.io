@@ -22,7 +22,7 @@
 //  }
 //}
 if (device.mobile()) {
-  document.location.href = "https://www.google.ru/"
+   document.location.href = "https://www.google.ru/"
 } else {
   document.location.href = "/index.html";
 }
