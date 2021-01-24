@@ -4,31 +4,552 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="slick/slick.css">
+   <link rel="stylesheet" href="slick/slick-theme.css">
    <title>Document</title>
 </head>
 <body>
-<header>
-   <div class="container">
+<div class="wrapper">
+<header class="header">
+   <div class="container header-container">
+
       <div class="header__body">
-         <div class="header__column">
-            <a href="#" class="header__logo"><img src="/img/logo.png" alt="BaikalProfiTour"></a>
+
+         <!-- Колонка логотип -->
+         <div class="header__column menu-logo">
+            <a href="" class="header__logo"><img src="img/icon/logo_svg.svg" alt="Логотип"></a>
+            <div class="header__text">
+               <p class="header__title">БайкалПрофиТур</p>
+               <p class="header__subtitle">15 лет организации отдыха на Байкале</p>
+            </div>
          </div>
+         <!-- Колонка основного меню -->
          <div class="header__column menu-header">
+            <!-- Бургер -->
             <div class="menu-header__icon">
-               <span></span>
-               <span></span>
                <span></span>
             </div>
             <nav class="menu-header__menu">
                <ul class="menu-header__list">
-                  <li><a href="#" class="menu-header__link">First</a></li>
-                  <li><a href="#" class="menu-header__link">Second</a></li>
-                  <li><a href="#" class="menu-header__link">Third</a></li>
-                  <li><a href="#" class="menu-header__link">Last</a></li>
+                  <li><a href="#" class="menu-header__link">Item 1</a></li>
+                  <li><a href="#" class="menu-header__link">Item 2</a></li>
+                  <li><a href="#" class="menu-header__link">Item 3</a></li>
+                  <li><a href="#" class="menu-header__link">Item 4</a></li>
                </ul>
             </nav>
          </div>
+         <!-- Колонка меню для связи  -->
+         <div class="header__column social-menu-header">
+            <ul class="social-menu-header__list">
+               <li><a href="#" class="social-menu-header__link"><img src="img/icon/insta.svg" alt="Insta"></a></li>
+               <li><a href="#" class="social-menu-header__link"><img src="img/icon/phone.svg" alt="Phone"></a></li>
+            </ul>
+         </div>
+
       </div>
    </div>
-</header></body>
+</header>
+</div>   <div class="wrapper">
+      <main class="main">
+
+      <!-- Слайдер -->
+      <section class="main__slider slider">
+         <!-- единичный слайд -->
+         <div class="slide" style="background-image: url(/img/slider_2.jpg)">
+            <div class="container slide-wrapper">
+               <div class="slide__information">
+               
+               <div class="slide__column slide-description">
+                  <p class="slide-description__text">
+                  Исследуй горячие источники севера!<br>
+                  <strong>В нашей экспедиции “ЛЕД БАЙКАЛА 2021”</strong><br>
+                  СТАРТ 1 марта, 6 дней<br>
+                  Стоимость 105 000руб на человека!<br>
+                  </p>
+               </div>
+               <div class="slide__column slide-more">
+                  <div class="slide-more__text">
+                     ПОСМОТРЕТЬ МАРШРУТ ЭКСПЕДИЦИИ
+                  </div>
+                  <a href="#" class="slide-more__link"><img src="img/icon/slide_link-btn.svg" alt=""></a>
+               </div>
+               </div>
+            </div>
+         </div>
+         <!-- единичный слайд -->
+         <div class="slide" style="background-image: url(/img/slider_3.jpg)">
+            <div class="container slide-wrapper">
+               <div class="slide__information">
+               
+               <div class="slide__column slide-description">
+                  <p class="slide-description__text">
+                  Исследуй горячие источники севера!<br>
+                  <strong>В нашей экспедиции “ЛЕД БАЙКАЛА 2021”</strong><br>
+                  СТАРТ 1 марта, 6 дней<br>
+                  Стоимость 105 000руб на человека!<br>
+                  </p>
+               </div>
+               <div class="slide__column slide-more">
+                  <div class="slide-more__text">
+                     ПОСМОТРЕТЬ МАРШРУТ ЭКСПЕДИЦИИ
+                  </div>
+                  <a href="#" class="slide-more__link"><img src="img/icon/slide_link-btn.svg" alt=""></a>
+               </div>
+               </div>
+            </div>
+         </div>
+         <!-- единичный слайд -->
+         <div class="slide" style="background-image: url(/img/slider_4.jpg)">
+            <div class="container slide-wrapper">
+               <div class="slide__information">
+               
+               <div class="slide__column slide-description">
+                  <p class="slide-description__text">
+                  Исследуй горячие источники севера!<br>
+                  <strong>В нашей экспедиции “ЛЕД БАЙКАЛА 2021”</strong><br>
+                  СТАРТ 1 марта, 6 дней<br>
+                  Стоимость 105 000руб на человека!<br>
+                  </p>
+               </div>
+               <div class="slide__column slide-more">
+                  <div class="slide-more__text">
+                     ПОСМОТРЕТЬ МАРШРУТ ЭКСПЕДИЦИИ
+                  </div>
+                  <a href="#" class="slide-more__link"><img src="img/icon/slide_link-btn.svg" alt=""></a>
+               </div>
+               </div>
+            </div>
+         </div>
+
+      </section>
+      <!-- Секция с основными категориями -->
+<div class="container">
+   <h1 class="hidden">БАЙКАЛПРОФИТУР 15 лет организации отдыха на Байкале</h1>
+   <!-- Выбор категорий -->
+<section class="category">
+   <ul class="category-list category-title">
+      <li class="category-title-item_active">
+         <a href="#" class="category-title__link category-title__link_active"><h2>ТУРЫ ЗИМА-ВЕСНА 2021</h2></a>
+      </li>
+      <li>
+         <a href="#" class="category-title__link"><h2>ТУРЫ ЛЕТО-ОСЕНЬ 2021</h2></a>
+      </li>
+      <li>
+         <a href="#" class="category-title__link"><h2>АКЦИИ</h2></a>
+      </li>
+   </ul>
+   <!-- Вывод постов из категории -->
+   <div class="category-results">
+
+   <!-- единичный пост -->
+      <div class="category-results__item category-item">
+         
+         <div class="category-item__prev" style="background-image: url(/img/item1.png)">
+            <div class="prev-wrapper">
+            <h2 class="category-item__title">Выходные на льду Байкала</h2>
+            <p class="category-item__flag flag__intitle">5 мест</p>
+            </div>
+            <a href='#' class='category-item__ghostLink'></a>
+
+         </div>
+         
+         <div class="category-item__descr">
+            <div class="descr-wrapper">
+            <ul class="category-flag flag-list">
+               <li>
+                  <ul class="flag-list__left">
+               </li>
+               <li class="category-flag__item category-flag__item_left category-item__flag">
+                  экскурсионный
+               </li>
+               <li class="category-flag__item category-flag__item_left category-item__flag">
+                  хивус
+               </li>
+               </ul>
+            </li>
+               <li class="category-flag__item category-flag__item_right category-item__flag">
+                  хит
+               </li>
+            </ul>
+            <div class="category-item__information">
+            <div class="category-item__text">
+            <p class="category-item__rout">
+               Иркутск-Листвянка-Бухта Песчаная-Ольхон-Иркутск
+            </p>
+            <p class="category-item__data">
+               20.02-22.02 (3 дня)
+            </div>
+            </p>
+         
+            <p class="category-item__price">
+               35 000 руб/чел
+            </p>
+          </div>
+            </div>
+         </div>
+      </div>
+      <!-- Конец поста-->
+      <!-- единичный пост -->
+      <div class="category-results__item category-item">
+         
+         <div class="category-item__prev" style="background-image: url(/img/item2.png)">
+            <div class="prev-wrapper">
+            <h2 class="category-item__title">Ледяное сияние Байкала</h2>
+            <p class="category-item__flag flag__intitle">10 мест</p>
+            </div>
+            <a href='#' class='category-item__ghostLink'></a>
+
+         </div>
+         
+         <div class="category-item__descr">
+            <div class="descr-wrapper">
+            <ul class="category-flag flag-list">
+               <li>
+                  <ul class="flag-list__left">
+               </li>
+               <li class="category-flag__item category-flag__item_left category-item__flag">
+                  экскурсионный
+               </li>
+               
+               </ul>
+            </li>
+               <li class="category-flag__item category-flag__item_right category-item__flag">
+                  комфорт
+               </li>
+            </ul>
+            <div class="category-item__information">
+            <div class="category-item__text">
+            <p class="category-item__rout">
+               Иркутск, Ольхон, о.Огой, Бухта Песчаная, Листвянка
+            </p>
+            <p class="category-item__data">
+               21.02-27.02 (7 дней)
+            </div>
+            </p>
+         
+            <p class="category-item__price">
+               68 000 руб/чел
+            </p>
+         </div>
+            </div>
+         </div>
+      </div>
+      <!-- Конец поста-->
+      <!-- единичный пост -->
+      <div class="category-results__item category-item">
+         
+         <div class="category-item__prev" style="background-image: url(/img/item3.png)">
+            <div class="prev-wrapper">
+            <h2 class="category-item__title">300 км по льду Байкала</h2>
+            
+            </div>
+            <a href='#' class='category-item__ghostLink'></a>
+
+         </div>
+         
+         <div class="category-item__descr">
+            <div class="descr-wrapper">
+            <ul class="category-flag flag-list">
+               <li>
+                  <ul class="flag-list__left">
+               
+               <li class="category-flag__item category-flag__item_left category-item__flag">
+                  активный
+               </li>
+               <li class="category-flag__item category-flag__item_left category-item__flag">
+                  хаски
+               </li>
+               </ul>
+            </li>
+               <li class="category-flag__item category-flag__item_right category-item__flag">
+                  хит
+               </li>
+            </ul>
+            <div class="category-item__information">
+            <div class="category-item__text">
+            <p class="category-item__rout">
+               Ольхон, Бухта Песчаная, Листвянка, КБЖД, Байкальск, Иркутск
+
+            </p>
+            <p class="category-item__data">
+               03.03-10.03 (8 дней)
+            </div>
+            </p>
+         
+            <p class="category-item__price">
+               98 000 руб/чел
+            </p>
+         </div>
+            </div>
+         </div>
+      </div>
+      <!-- Конец поста-->
+      <!-- единичный пост -->
+      <div class="category-results__item category-item">
+         
+         <div class="category-item__prev" style="background-image: url(/img/item4.png)">
+            <ul class="flag-list__intitle">
+               <li class="category-item__flag flag__intitle_top">
+                  хит
+               </li>
+               <li class="category-item__flag flag__intitle_top">
+               item 2
+            </li>
+            <li class="category-item__flag flag__intitle_top">
+               item 3
+            </li>
+            </ul>
+            <div class="prev-wrapper">
+            <h2 class="category-item__title">Экспедиция "Лед Байкала"</h2>
+            <p class="category-item__flag flag__intitle">50 мест</p>
+            </div>
+            <a href='#' class='category-item__ghostLink'></a>
+
+         </div>
+         
+         <div class="category-item__descr">
+            <div class="descr-wrapper">
+            <ul class="category-flag flag-list flag-list_nowrap">
+               <li class="category-flag__item category-flag__item_left category-item__flag category-item__flag_nowrap">
+                  <p class="nowrap"> активный</p>
+               </li>
+               <li class="category-flag__item category-flag__item_left category-item__flag category-item__flag_nowrap">
+                  <p class="nowrap"> горячие источники </p>
+               </li>
+               
+            </ul>
+            <div class="category-item__information">
+            <div class="category-item__text">
+            <p class="category-item__rout">
+               Ольхон, Чивыркуйский залив, Давша, Котельниковский, Хакусы, Северобайкальск
+            </p>
+            <p class="category-item__data">
+               01.03-06.03 (6 дней)
+            </div>
+            </p>
+         
+            <p class="category-item__price">
+               105 000 руб/чел
+            </p>
+         </div>
+            </div>
+         </div>
+      </div>
+      <!-- Конец поста-->
+
+   </div>
+
+</section>
+</div><div class="container">
+
+<section class="features-wrapper">
+   <div class="features-title">
+   <h2 class="features-title">
+      БайкалПрофиТур - это
+   </h2>
+</div>
+   <!-- вывод постов-->
+   <div class="features">
+      <!-- единичный пост -->
+      <div class="features-item">
+         <div class="features-item__wrapper">
+         <div class="features-item__block-title">
+            <div class="features-item__img">
+               <img src="img/features1.png" alt="">
+            </div>
+            <div class="features-item__title">
+               <h3>
+                  СБОРНЫЕ ТУРЫ
+               </h3>
+            </div>
+         </div>
+         <div class="features-item__text">
+            
+               Проверенные программы, приятная цена, разнообразие маршрутов и количества дней на любой вкус.
+               <br>Небольшие группы до 10 человек.  
+            
+         </div>
+         </div>
+      </div>
+      <!-- конец поста -->
+            <!-- единичный пост -->
+            <div class="features-item">
+               <div class="features-item__wrapper">
+               <div class="features-item__block-title">
+                  <div class="features-item__img">
+                     <img src="img/features2.png" alt="">
+                  </div>
+                  <div class="features-item__title">
+                     <h3>
+                        КРУИЗЫ ПО БАЙКАЛУ
+                     </h3>
+                  </div>
+               </div>
+               <div class="features-item__text">
+                  
+                  Наша компания уже более 15 лет занимается организацией комфортных путешествий на небольших теплоходах по всему Байкалу.   
+                  
+               </div>
+               </div>
+            </div>
+            <!-- конец поста -->
+                  <!-- единичный пост -->
+      <div class="features-item">
+         <div class="features-item__wrapper">
+         <div class="features-item__block-title">
+            <div class="features-item__img">
+               <img src="img/features3.png" alt="">
+            </div>
+            <div class="features-item__title">
+               <h3>
+                  ОДНОДНЕВНЫЕ ЭКСКУРСИИ
+               </h3>
+            </div>
+         </div>
+         <div class="features-item__text">
+            
+            Первое впечатление важно - и мы делаем все, что бы наш край полюбился вам так же как и нам. 
+            
+         </div>
+         </div>
+      </div>
+      <!-- конец поста -->
+            <!-- единичный пост -->
+            <div class="features-item">
+               <div class="features-item__wrapper">
+               <div class="features-item__block-title">
+                  <div class="features-item__img">
+                     <img src="img/features4.png" alt="">
+                  </div>
+                  <div class="features-item__title">
+                     <h3>
+                        MICE МЕРОПРИЯТИЯ
+                     </h3>
+                  </div>
+               </div>
+               <div class="features-item__text">
+                  
+                  Каждый проект для нас уникален, мероприятия масштабны.Мы поддерживаем уже много лет высокое качество обслуживания и неизменное внимание к деталям. 
+                  
+               </div>
+               </div>
+            </div>
+            <!-- конец поста -->
+                  <!-- единичный пост -->
+      <div class="features-item">
+         <div class="features-item__wrapper">
+         <div class="features-item__block-title">
+            <div class="features-item__img">
+               <img src="img/features5.png" alt="">
+            </div>
+            <div class="features-item__title">
+               <h3>
+                  ВИП ПРОГРАММЫ
+               </h3>
+            </div>
+         </div>
+         <div class="features-item__text">
+            
+            Персональный менеджер поможет с программой, учтет все пожелания. Проконсультирует о всех нюансах, разработает эксклюзивную программу для лучшего отдыха.  
+            
+         </div>
+         </div>
+      </div>
+      <!-- конец поста -->
+            <!-- единичный пост -->
+            <div class="features-item">
+               <div class="features-item__wrapper">
+               <div class="features-item__block-title">
+                  <div class="features-item__img">
+                     <img src="img/features6.png" alt="">
+                  </div>
+                  <div class="features-item__title">
+                     <h3>
+                        РАЗМЕЩЕНИЕ НА БЕРЕГУ БАЙКАЛА
+                     </h3>
+                  </div>
+               </div>
+               <div class="features-item__text">
+                  
+                  Наш отдел специализирующийся на рамещении в отелях и базах отдыха на Байкале проконсультирует вас по всем вопросам, учтет все пожелания и особенности.  
+                  
+               </div>
+               </div>
+            </div>
+            <!-- конец поста --> 
+   </div>
+</section>
+
+</div><div class="container">
+<form class="decor">
+   <div class="form-inner">
+   <h3>Заказать отдых на Байкале</h3>
+   <p>*оставьте свои контакты и мы обязательно свяжемся с вами!</p>
+   <input type="text" placeholder="Ваше Имя">
+   <input type="tel" placeholder="Телефон">
+   <input type="text" placeholder="E-mail">
+   <textarea placeholder="Дополнительно" rows="3"></textarea>
+   <input type="submit" value="Отправить заявку">
+   <p class="politics">
+      Нажимая “Отправить заявку” Вы соглашаетесь с Политикой обработки персональных данных
+   </p>
+   </div>
+</form>
+</div>   </main>
+   </div>
+<footer class="footer">
+   <div class="container">
+      <div class="footer-wrapper">
+      <!-- Навигация в футере -->
+      <div class="footer-nav">
+         <!-- О компании -->
+         <ul class="footer-nav__about footer-nav__list">
+            <li class="footer-nav__header"><h2 class="footer-nav__title">О компании</h2><span class="footer-arrow__about arrow-up"></span></li>
+         <div class="footer-about__wrapper footer-hidden">
+            <li><a href="" class="footer-nav__link">О нас</a></li>
+            <li><a href="" class="footer-nav__link">Отзывы</a></li>
+            <li><a href="" class="footer-nav__link">Видео- и фотоотчеты</a></li>
+            <li><a href="" class="footer-nav__link">Сотрудничество</a></li>
+         </div>
+         </ul>
+         <!-- Туры -->
+         <ul class="footer-nav__tours footer-nav__list">
+            <li class="footer-nav__header"><h2 class="footer-nav__title">Туры</h2><span class="footer-arrow__tours arrow-up"></span></li>
+         <div class="footer-tours__wrapper footer-hidden">
+            <li><a href="" class="footer-nav__link">Item</a></li>
+            <li><a href="" class="footer-nav__link">Item</a></li>
+            <li><a href="" class="footer-nav__link">Item</a></li>
+            <li><a href="" class="footer-nav__link">Item</a></li>
+         </div>
+         </ul>
+         <!-- Контакты -->
+         <ul class="footer-nav__contacts footer-nav__list">
+            <li class="footer-nav__header"><h2 class="footer-nav__title">Контакты</h2><span class="footer-arrow__contacts arrow-up"></span></li>
+         <div class="footer-contacts__wrapper footer-hidden">
+            <li><a href="" class="footer-nav__link">Item</a></li>
+            <li><a href="" class="footer-nav__link">Item</a></li>
+         </div>
+         </ul>
+      </div>
+      <div class="footer-social">
+         <ul class="footer-social__list">
+            <li><a href="#" class="footer-social__link"><img src="img/icon/insta.svg" alt="Insta"></a></li>
+            <li><a href="#" class="footer-social__link"><img src="img/icon/whatsapp.svg" alt="Whatsapp"></a></li>
+            <li><a href="#" class="footer-social__link"><img src="img/icon/phone.svg" alt="Phone"></a></li>
+         </ul>
+      </div>
+      <div class="footer-site-link site-link">
+         <a href="" class="site-link__link">Переход на полную версию сайта</a>
+      </div>
+      <p class="footer-offerta">
+         ВНИМАНИЕ! Вся информация, опубликованная на сайте, не является публичной офертой. 
+         Детали по каждому конкретному туру или услуге уточняйте у менеджеров.
+         © ООО «БайкалПрофиТур». Все права на материалы, размещенные на сайте, принадлежат ООО «БайкалПрофиТур». Любое использование этих материалов без получения письменного согласования компании запрещено.
+      </p>
+   </div>
+   </div>
+</footer><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="js/main.js"></script>
+<script src="slick/slick.min.js"></script>
+</body>
 </html>
